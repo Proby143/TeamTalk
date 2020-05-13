@@ -9,6 +9,7 @@
 	这些脚本会先安装以上依赖。
 	
 ## 2、编译协议文件
+	ln -s /root/TeamTalk/server/src/protobuf/bin/protoc /usr/bin
 	
 	所有的协议文件在pb目录下，其中有create.sh以及sync.sh两个shell脚本。
 	create.sh的作用是使用protoc将协议文件转化成相应语言的源码。

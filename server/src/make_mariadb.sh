@@ -2,11 +2,11 @@
 # author: luoning
 # date: 03/24/2015
 
-MARIADB_DEVEL=MariaDB-10.1.11-centos7-x86_64-devel
+MARIADB_DEVEL=MariaDB-devel-10.1.43-1.el7.centos.x86_64
 MARIADB_DEVEL_DOWNLOAD_PATH=http://yum.mariadb.org/10.1/centos7-amd64/rpms/$MARIADB_DEVEL.rpm
-MARIADB_COMMON=MariaDB-10.1.11-centos7-x86_64-common
+MARIADB_COMMON=MariaDB-common-10.1.43-1.el7.centos.x86_64
 MARIADB_COMMON_DOWNLOAD_PATH=http://yum.mariadb.org/10.1/centos7-amd64/rpms/$MARIADB_COMMON.rpm
-MARIADB_COMPAT=MariaDB-10.1.11-centos7-x86_64-compat
+MARIADB_COMPAT=MariaDB-compat-10.1.43-1.el7.centos.x86_64
 MARIADB_COMPAT_DOWNLOAD_PATH=http://yum.mariadb.org/10.1/centos7-amd64/rpms/$MARIADB_COMPAT.rpm
 CUR_DIR=
 

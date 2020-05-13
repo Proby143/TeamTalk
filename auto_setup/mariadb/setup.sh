@@ -5,21 +5,21 @@
 
 # setup mysql
 
-MARIADB_SHARED=MariaDB-10.0.17-centos6-x86_64-shared
-MARIADB_SHARED_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_SHARED.rpm
+MARIADB_SHARED=MariaDB-shared-10.1.43-1.el7.centos.x86_64
+MARIADB_SHARED_DOWNLOAD_PATH=http://yum.mariadb.org/10.1/centos7-amd64/rpms/$MARIADB_SHARED.rpm
 
-MARIADB_CLIENT=MariaDB-10.0.17-centos6-x86_64-client
-MARIADB_CLIENT_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_CLIENT.rpm
+MARIADB_CLIENT=MariaDB-client-10.1.43-1.el7.centos.x86_64
+MARIADB_CLIENT_DOWNLOAD_PATH=http://yum.mariadb.org/10.1/centos7-amd64/rpms/$MARIADB_CLIENT.rpm
 
 
-MARIADB_SERVER=MariaDB-10.0.17-centos6-x86_64-server
-MARIADB_SERVER_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_SERVER.rpm
+MARIADB_SERVER=MariaDB-server-10.1.43-1.el7.centos.x86_64
+MARIADB_SERVER_DOWNLOAD_PATH=http://yum.mariadb.org/10.1/centos7-amd64/rpms/$MARIADB_SERVER.rpm
 
-MARIADB_COMMON=MariaDB-10.0.17-centos6-x86_64-common
-MARIADB_COMMON_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_COMMON.rpm
+MARIADB_COMMON=MariaDB-common-10.1.43-1.el7.centos.x86_64
+MARIADB_COMMON_DOWNLOAD_PATH=http://yum.mariadb.org/10.1/centos7-amd64/rpms/$MARIADB_COMMON.rpm
 
-MARIADB_COMPAT=MariaDB-10.0.17-centos6-x86_64-compat
-MARIADB_COMPAT_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_COMPAT.rpm
+MARIADB_COMPAT=MariaDB-compat-10.1.43-1.el7.centos.x86_64.rpm
+MARIADB_COMPAT_DOWNLOAD_PATH=http://yum.mariadb.org/10.1/centos7-amd64/rpms/$MARIADB_COMPAT.rpm
 
 IM_SQL=ttopen.sql
 MYSQL_CONF=my.cnf

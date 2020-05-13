@@ -73,6 +73,10 @@ build_protobuf(){
     cp lib/libprotobuf-lite.a ../base/pb/lib/linux/
     cp  -r include/* ../base/pb/
 }
+protoc_bin(){
+    cd protobuf
+    ln -s ./protoc /usr/bin
+}
 
 check_user
 get_cur_dir
